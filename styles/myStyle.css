@@ -94,6 +94,7 @@ h1 {
     margin: 0px 175px 0px 0px;
     height: 103px;
     font-size: 2vw;
+    position: sticky;
 }
 
 
