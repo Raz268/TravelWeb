@@ -94,7 +94,7 @@ h1 {
     margin: 0px 175px 0px 0px;
     height: 103px;
     font-size: 2vw;
-    position: sticky;
+  
 }
 
 
@@ -215,6 +215,7 @@ transition:1s;
     background-position: center;
     background: rgba(173, 177, 169, 0.5);
     text-align: center;
+  position: sticky;
 }
 .TrackDetails ul {
     width: 1152PX;
