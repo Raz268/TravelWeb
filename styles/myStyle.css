@@ -1,0 +1,418 @@
+﻿body {
+    direction: rtl;
+    background-color: #F2F2F2;
+    background-position: center;
+    margin: auto 0;
+    width: 1200px;
+    
+}
+.webpage {
+    background-image: url('../pic/back_graound_pages.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    margin: auto 0;
+}
+#mainNav {
+    background-color: #ADB1A9;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+    z-index: 2;
+    margin-right: 175px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+#mainNav ul {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+}
+#mainNav li {
+    display: inline-block; 
+    margin: 0 10px;
+}
+#mainNav a {
+     display: inline-block; 
+     padding: 10px 15px; 
+     text-decoration: none; 
+     color: white;
+     font-family:'Segoe UI';
+}
+#mainNav ul :hover {
+    background-color: lightblue;
+}
+.Breadcrumbs {
+    padding: 10px 15px;
+    position: absolute;
+    margin: 59px 165px 100px 100px;
+}
+    .Breadcrumbs ol li {
+        display: inline-block;
+        font-family: 'Segoe UI';
+    }
+.Breadcrumbs ol li:after{
+    content:">";
+ }
+.Breadcrumbs ol li:last-child:after{
+    content:"";
+}
+    #maidhead {
+        width: 1200px;
+        padding-top: 70px;
+        text-align: center;
+        font-family: 'Rounded Mplus 1c';
+        background: rgba(255, 255, 255, 0.5);
+        background-size: cover;
+        background-position: center;
+        margin: 0px 126px 0px 0px;
+        height: 150px;
+    }
+#intro {
+    padding: 40px 0px 40px 0px;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    width: 1200px;
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Segoe UI';
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 0px 126px 0px 0px;
+    background: rgba(255, 255, 255, 0.2);
+}
+h1 {
+    width: 1200px;
+    padding-top: 120px;
+    text-align: center;
+    font-family: 'Rounded Mplus 1c';
+    background: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 175px 0px 0px;
+    height: 103px;
+    font-size: 2vw;
+}
+
+
+.description {
+    width: 1200px;
+    font-family: 'Segoe UI';
+    background: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 175px 0px 0px;
+    height: 250px;
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top:20px;
+}
+div.DescriptionMain {
+    background-size: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    margin: 0px 175px 0px 0px;
+    width: 1200px;
+    position: relative;
+    font-family: 'Segoe UI';
+    padding: 40px 0px 40px 0px;
+    color: white;
+    background-position: center;
+    background: rgba(173, 177, 169, 0.5);
+    text-align: center;
+}
+DescriptionMain p {
+        margin: 5%;
+        font-weight: bold;
+        color: white;
+       
+    }
+.pages {
+    width: 1170px;
+    height: 400px;
+    font-family: 'Segoe UI';
+    background: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 175px 0px 0px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    padding-right:30px;
+}
+    .pages ul {
+        list-style-image: url('../pic/icon2.png');
+    }
+    .pages h2 {
+        text-align: center;
+    }
+#Links{
+    width: 1200px;
+    height: 450px;
+    position: relative;
+    margin: 50px 175px 0px 0px;
+    display: inline-block;
+}
+.buttons {
+    color: white;
+    width: 377px;
+    height: 12px;
+    padding: 38px 90px 75px 100px;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    font-family: 'Rounded Mplus 1c';
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+#water {
+    background-image: url('../pic/green-water.jpg');
+    background-position: bottom;
+    cursor: pointer;
+    text-decoration: none;
+}
+#land {
+    background-image: url(../pic/mountain.jpg);
+    margin-right: 40px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+#lookout {
+    background-image: url('../pic/wooden-bench.jpg');
+    background-position: center;
+    cursor: not-allowed;
+}
+#city {
+    background-image: url('../pic/city.jpg');
+    margin-right: 40px;
+    text-align: center;
+    background-position: center;
+    cursor: not-allowed;
+}
+.buttons:hover{
+transform: scale(1.1);
+transition:1s;
+}
+
+.gender{
+    display: inline;
+}
+.TrackDetails h2 {
+    background-size: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    margin: 0px 175px 0px 0px;
+    width: 1200px;
+    position: relative;
+    font-family: 'Segoe UI';
+    padding: 40px 0px 40px 0px;
+    color: white;
+    background-position: center;
+    background: rgba(173, 177, 169, 0.5);
+    text-align: center;
+}
+.TrackDetails ul {
+    width: 1152PX;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0px 175px 0px 0px;
+    height: 700px;
+    font-family: 'Segoe UI';
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style-image: url('../pic/icon2.png');
+}
+    .TrackDetails ul h3 {
+        color: #659F62;
+        font-weight: bold;
+        text-shadow: 0 0 2px rgba(173, 177, 169, 0.8);
+        text-decoration: underline;
+    }
+    .footer {
+        background-color: #ADB1A9;
+        padding: 11px 123px;
+        height: 250px;
+        width: 958px;
+        margin-right: 175px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        position: relative;
+        vertical-align: bottom;
+    }
+    .footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 958px;
+        text-align: center;
+    }
+.footer li {
+    display: inline-block;
+  
+ }
+.footer a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI';   
+}
+    .footer h3 {
+        font-family: 'Segoe UI';
+        font-size:2vw;
+        color:white;
+    }
+#mapNavBG {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../pic/world-map-black-white.png');
+    margin: 0px 175px 0px 0px;
+   
+}
+#mapNav {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    width: 1200px;
+    position: relative;
+    font-family: 'Segoe UI';
+    padding: 100px 0px 40px 0px;
+    color: white;
+    text-align: center;
+    height: 400px;   
+}
+    #mapNav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 1200px;
+     text-align: center;
+        
+    }
+    #mapNav li {
+        display: inline-block;
+        text-align: center;
+    }
+    #mapNav a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-family: 'Segoe UI';
+        color: #fff; 
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset, 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.content h1 {
+    font-size: 4vw;
+}
+
+.content p {
+    font-size: 1.5vw;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+}
+
+input[type="radio"] {
+    margin-right: 20px; 
+}
+.form-control {
+    margin: 37px 520px 37px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.6);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: 'Segoe UI';
+    
+}
+
+    #name, #mail {
+        margin-top: 15px;
+        width: 90%;
+        outline: none;
+        border-radius: 8px;
+        height: 45px;
+        border: 1.5px solid #ecedec;
+        background: transparent;
+        padding-left: 10px;
+    }
+#message {
+    margin-top: 15px;
+    width: 90%;
+    outline: none;
+    border-radius: 8px;
+    height: 100px;
+    border: 1.5px solid #ecedec;
+    background: transparent;
+    padding-left: 10px;
+}
+
+#submit:hover {
+    background-color: #ADB1A9;
+    color: white;
+}
+#submit {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #ADB1A9;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    align-items:center;
+    margin-right:140px;
+}
+.pic {
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right:20px;
+    max-width:100%;
+}
+.notActive {
+    cursor: not-allowed;
+    color: darkgray;
+}
+#mapNav.notActive {
+    color:darkgray;
+}

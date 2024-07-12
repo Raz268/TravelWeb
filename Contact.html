@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>צור קשר- ים יבשה</title>
+    <meta name="description" content="דף צור קשר לאתר ים-יבשה" />
+    <meta name="keywords" content="צור קשר, טיולים, ים יבשה," />
+    <meta name="Author" content="רז עובדיה, נועם רושו, מירב זוהר, קורל כהן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="pic/favicon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+
+</head>
+<body class="webpage">
+    <header>
+        <nav aria-label="main-nav" id="mainNav">
+            <ul>
+                <li><a href="index.html">דף בית</a></li>
+                <li><a href="waterways.html">מסלולי מים</a></li>
+                <li><a href="landways.html"> מסלולים יבשים</a></li>
+                <li><a href="#" class="notActive">מסלולי תצפית</a></li>
+                <li><a href="#" class="notActive" >מסלולים עירוניים</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <nav class="Breadcrumbs">
+            <ol>
+                <li><a href="index.html">דף בית</a></li>
+                <li>צור קשר</li>
+            </ol>
+        </nav>
+        <h1>
+            בית לכל הטיולים-"ים יבשה" <br />
+            צור איתנו קשר
+        </h1>
+        <br />
+        <br />
+    </section>
+
+    <section class="description">
+        <p>רוצים לשתף אותנו בטיולים מרתקים? </p>
+        <p>אתם מכירים מסלולי טיול מדהימים ושילובי נופים מרהיבים שמתאימים לכל המשפחה?</p>
+        <p>או שהסתבכתם בחיפוש אחר המסלול המושלם ואינכם מוצאים אותו?</p>
+        <p> אנחנו נשמח לשמוע מכם!</p>
+        <p>שתפו אותנו במסלולים האהובים עליכם, טיפים למסלולים מוצלחים וכל מה שיכול להפוך את הטיול בארץ לחוויה בלתי נשכחת.</p>
+        <br />
+        <br />
+    </section>
+
+    <form class="form-control">
+        <label for=" Name"> שם מלא:  </label>
+        <input type="text" id="name" placeholder="הקלד שם ושם משפחה" required /> <br />
+
+
+        <fieldset class="radio-container">
+            <legend>מגדר:</legend>
+            <input type="radio" name="radio" class="gender" />  נקבה  <br />
+            <input type="radio" name="radio" class="gender" />  זכר <br />
+            <input type="radio" name="radio" class="gender" checked />  אחר <br />
+        </fieldset>
+
+        <br />
+        <label for="email"> אימייל: </label>
+        <input type="email" id="mail" placeholder="מייל" required /> <br /> <br />
+
+        תוכן ההודעה:<br />
+        <textarea id="message" name="details" rows="7" cols="20"></textarea> <br />
+        <input type="submit" id="submit" value="שליחה" />
+    </form>
+    <footer>
+        <div class="footer">
+            <h3> ים יבשה- מצאו את המסלול המושלם עבורכם. </h3>
+            <br />
+            <img src="pic/favicon.png" alt="לוגו האתר: סמל של קווים כחולים ושביל חום עם הר ושמש">
+            <br />
+            <nav aria-label="footer-nav">
+                <ul>
+                    <li><a href="index.html">דף בית</a></li>
+                    <li><a href="contact.html">צור קשר</a></li>
+                    <li><a href="about.html">אודות</a></li>
+                    <li> <a href="mapNav.html">מפת האתר</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
