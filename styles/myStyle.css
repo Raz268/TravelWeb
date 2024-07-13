@@ -175,6 +175,7 @@ DescriptionMain p {
     background-position: bottom;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
 }
 #land {
     background-image: url(../pic/mountain.jpg);
