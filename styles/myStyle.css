@@ -2,7 +2,7 @@
     direction: rtl;
     background-color: #F2F2F2;
     background-position: center;
-    margin: auto 0;
+    margin: 0 auto;
     width: 1280px;
     
 }
@@ -11,7 +11,7 @@
     background-size: cover;
     background-position: center;
     width: 1280px;
-    margin: auto 0;
+    margin: 0 auto;
 }
 #mainNav {
     background-color: #ADB1A9;
