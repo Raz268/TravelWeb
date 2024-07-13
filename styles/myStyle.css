@@ -3,14 +3,14 @@
     background-color: #F2F2F2;
     background-position: center;
     margin: 0 auto;
-    width: 1280px;
+    width: 1200px;
     
 }
 .webpage {
     background-image: url('../pic/back_graound_pages.jpg');
     background-size: cover;
     background-position: center;
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
 }
 #mainNav {
