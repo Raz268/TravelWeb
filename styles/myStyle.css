@@ -66,7 +66,7 @@
         background: rgba(255, 255, 255, 0.5);
         background-size: cover;
         background-position: center;
-        margin: 0px 126px 0px 0px;
+       
         height: 150px;
     }
 #intro {
@@ -80,7 +80,7 @@
     font-size: 2vw;
     font-family: 'Segoe UI';
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    margin: 0px 126px 0px 0px;
+    
     background: rgba(255, 255, 255, 0.2);
 }
 h1 {
@@ -91,7 +91,7 @@ h1 {
     background: rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
-    margin: 0px 175px 0px 0px;
+   
     height: 103px;
     font-size: 2vw;
   
@@ -104,7 +104,7 @@ h1 {
     background: rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
-    margin: 0px 175px 0px 0px;
+   
     height: 250px;
     text-indent: 50px;
     text-align: center;
@@ -114,7 +114,7 @@ h1 {
 div.DescriptionMain {
     background-size: cover;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    margin: 0px 175px 0px 0px;
+   
     width: 1200px;
     position: relative;
     font-family: 'Segoe UI';
@@ -137,7 +137,7 @@ DescriptionMain p {
     background: rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
-    margin: 0px 175px 0px 0px;
+   
     letter-spacing: 3px;
     padding-top: 20px;
     padding-right:30px;
@@ -152,7 +152,7 @@ DescriptionMain p {
     width: 1200px;
     height: 450px;
     position: relative;
-    margin: 50px 175px 0px 0px;
+    margin: 50px 0px 0px 0px;
     display: inline-block;
 }
 .buttons {
@@ -207,7 +207,7 @@ transition:1s;
 .TrackDetails h2 {
     background-size: cover;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    margin: 0px 175px 0px 0px;
+    
     width: 1200px;
     position: relative;
     font-family: 'Segoe UI';
@@ -221,7 +221,7 @@ transition:1s;
 .TrackDetails ul {
     width: 1152PX;
     background: rgba(255, 255, 255, 0.5);
-    margin: 0px 175px 0px 0px;
+
     height: 700px;
     font-family: 'Segoe UI';
     padding-left: 10px;
@@ -239,7 +239,7 @@ transition:1s;
         padding: 11px 123px;
         height: 250px;
         width: 958px;
-        margin-right: 175px;
+        
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         text-align: center;
         position: relative;
@@ -273,7 +273,7 @@ transition:1s;
     background-position: center;
     background-size: cover;
     background-image: url('../pic/world-map-black-white.png');
-    margin: 0px 175px 0px 0px;
+    
    
 }
 #mapNav {
